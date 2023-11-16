@@ -40,7 +40,11 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
+    .holder {
+            display: flex;
+            flex-wrap: wrap;
+            font-weight: 1500px;
+        }
 
 .item {
     height: 50px;
