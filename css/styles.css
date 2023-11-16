@@ -42,33 +42,40 @@ img {
 }
 
 
-.holder {
-    display: flex;
-    flex-wrap: wrap;
-   }
-.item 
-{ flex-basis:600px;
+.item {
     height: 50px;
 }
 
 .item:nth-child(1) {
     background-color: red;
+    flex-basis: 750px;
     flex-grow: 2;
 }
+
 .item:nth-child(2) {
     background-color: blue;
+    flex-basis: 500px;
     order: 4;
-    }
+    flex-grow: 1;
+}
+
 .item:nth-child(3) {
     background-color: purple;
+    flex-basis: 500px;
     order: 3;
+    flex-grow: 1;
 }
+
 .item:nth-child(4) {
     background-color: green;
+    flex-basis: 500px;
     order: 5;
-   }
+    flex-grow: 1;
+}
+
 .item:nth-child(5) {
     background-color: orange;
     flex-grow: 2;
-   order: 2;
+    flex-basis: 750px;
+    order: 2;
 }
