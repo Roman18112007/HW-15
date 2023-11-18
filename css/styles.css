@@ -43,7 +43,7 @@ img {
     .holder {
             display: flex;
             flex-wrap: wrap;
-            font-weight: 1500px;
+            width: 1500px;
         }
 
 .item {
@@ -54,27 +54,37 @@ img {
     background-color: red;
     flex-basis: 750px;
     flex-grow: 2;
+    border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-top-left-radius: 20px;
 }
 
 .item:nth-child(2) {
     background-color: blue;
     flex-basis: 500px;
     order: 4;
-    flex-grow: 1;
+    border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
 }
 
 .item:nth-child(3) {
     background-color: purple;
     flex-basis: 500px;
     order: 3;
-    flex-grow: 1;
+    border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
 }
 
 .item:nth-child(4) {
     background-color: green;
     flex-basis: 500px;
     order: 5;
-    flex-grow: 1;
+    border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-bottom: 2px solid black;
+
 }
 
 .item:nth-child(5) {
@@ -82,4 +92,7 @@ img {
     flex-grow: 2;
     flex-basis: 750px;
     order: 2;
+    border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-top-right-radius: 20px;
 }
