@@ -63,8 +63,6 @@ img {
     background-color: blue;
     flex-basis: 500px;
     order: 4;
-    border-top: 2px solid black;
-        border-left: 2px solid black;
         border-bottom: 2px solid black;
 }
 
@@ -72,7 +70,6 @@ img {
     background-color: purple;
     flex-basis: 500px;
     order: 3;
-    border-top: 2px solid black;
         border-left: 2px solid black;
         border-bottom: 2px solid black;
 }
@@ -81,8 +78,7 @@ img {
     background-color: green;
     flex-basis: 500px;
     order: 5;
-    border-top: 2px solid black;
-        border-left: 2px solid black;
+    border-right: 2px solid black;
         border-bottom: 2px solid black;
 
 }
@@ -93,6 +89,6 @@ img {
     flex-basis: 750px;
     order: 2;
     border-top: 2px solid black;
-        border-left: 2px solid black;
+    border-right: 2px solid black;
         border-top-right-radius: 20px;
 }
